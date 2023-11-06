@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text-primary {
+  color: #0866FF;
+}
+
+.icon {
+  @apply bg-gray-200 w-[40px] h-[40px] rounded-full grid place-items-center
+}
